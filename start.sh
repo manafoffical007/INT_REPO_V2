@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /FILE-STOR-V1
 fi
-cd /DQTheFileDonorBot
+cd /FILE-STOR-V1
 pip3 install -U -r requirements.txt
 echo "Starting FILE-STOR-V1...."
 python3 bot.py
