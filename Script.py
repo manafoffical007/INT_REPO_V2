@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """
+    SUR_TXT = """
 <b>
 𝐻𝑒𝑙𝑙𝑜 👋 {}</b>😍
 
