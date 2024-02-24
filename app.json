@@ -62,12 +62,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": "Telegram_files",
+            "value": "mongodb+srv://Autofilterv7:Autofilterv7@cluster0.t5tqe4s.mongodb.net/",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": "Telegram_files",
+            "value": "Autofilterv7",
             "required": false
         },
         "COLLECTION_NAME": {
