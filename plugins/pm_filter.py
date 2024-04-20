@@ -36,7 +36,7 @@ logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
 SPELL_CHECK = {}
-unwanted_words = ['pm', 'dm', 'pm me', 'hi', 'hlo', 'message', 'Me', 'Link', 'Message', 'Hii', 'Helo', 'Pm', 'Dm', 'ayyk', 'Ayyk', 'nook', 'Nook', 'bro', 'Bro', 'file', 'File', 'illa', 'ille', 'veno', 'Veno', 'Vend', 'vend', 'venm', 'Venm', 'Myre', 'Myre', 'link', 'msg', 'Msg', 'Mssge mee', 'kityo']
+unwanted_words = ['pm', 'dm', 'pm me', 'hi', 'hlo', 'message', 'Me', 'Link', 'Message', 'Hii', 'Helo', 'Pm', 'Dm', 'ayyk', 'Ayyk', 'nook', 'Nook', 'bro', 'Bro', 'file', 'File', 'illa', 'ille', 'veno', 'Veno', 'Vend', 'vend', 'venm', 'Venm', 'Myre', 'Myre', 'link', 'msg', 'Msg', 'Mssge mee', 'kityo', 'kittyo', '🔞']
 
 @Client.on_message(filters.group)
 async def delete_message(client, message):
