@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/RolexPc/FILE-STOR-V1",
-    "repository": "https://github.com/RolexPc/FILE-STOR-V1",
+    "website": "https://github.com/RolexPc/FileStorebotv1",
+    "repository": "https://github.com/RolexPc/FileStorebotv1",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
