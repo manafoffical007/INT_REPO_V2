@@ -71,7 +71,11 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return
-   if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
+   
+    if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help", "start", "hehe"]:
+        if message.command[1] == "subscribe":
+            await ForceSub(client, message)
+            return        
         buttons = [[
             InlineKeyboardButton("👥 𝗚𝗥𝗢𝗨𝗣 - 𝟭", url=f"https://t.me/ARAKAL_THERAVAD_MOVIES"),
             InlineKeyboardButton("👥 𝗚𝗥𝗢𝗨𝗣 - 𝟮", url=f"https://t.me/ARAKAL_THERAVAD_GROUP_02")
