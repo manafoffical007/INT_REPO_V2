@@ -13,6 +13,20 @@ class script(object):
 <b>🍂 Oᴡɴᴇʀ : @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
 
 
+    START_TXT = """
+<b>
+𝐻𝑒𝑙𝑙𝑜 👋 {}</b>😍
+
+
+<b>I'ᴍ <a href=https://t.me/{}>{}</a> Yᴏᴜ Cᴀɴ Cᴀʟʟ Mᴇ Aꜱ 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 Bᴏᴛ Bᴏᴛ ᴠ7 🫶</b>
+
+<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @ARAKAL_THERAVAD_MOVIES..!! 💫</b>
+
+<b>📌 Sᴜᴘᴘᴏʀᴛ : @OTT_ARAKAL_THERAVAD_MOVIESS</b>
+
+<b>🍂 Oᴡɴᴇʀ : @ARAKAL_THERAVAD_MOVIES_02_bot</b>"""
+
+
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
