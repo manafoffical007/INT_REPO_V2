@@ -46,6 +46,14 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Autofilterv7:Autofilte
 DATABASE_NAME = environ.get('DATABASE_NAME', "Autofilterv7")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+# FSUB
+auth_channel = environ.get('AUTH_CHANNEL')
+AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
+# Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
+REQ_CHANNEL=environ.get("REQ_CHANNEL", None)
+REQ_CHANNEL = (int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False) if REQ_CHANNEL is not None else None
+JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
+
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
