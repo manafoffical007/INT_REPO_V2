@@ -104,7 +104,6 @@ async def start(client, message):
     status = await ForceSub(client, message, file_id=file_id, mode=pre)
     if not status:
         return
-
     data = message.command[1]
     try:
         pre, file_id = data.split('_', 1)
@@ -112,7 +111,6 @@ async def start(client, message):
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
-        DL = []
         sts = await message.reply("<b>Pʟᴇᴀsᴇ ᴡᴀɪᴛ...</b>")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
@@ -130,20 +128,16 @@ async def start(client, message):
             title = msg.get("title")
             size=get_size(int(msg.get("size", 0)))
             f_caption=msg.get("caption", "")
-            
             if BATCH_FILE_CAPTION:
                 try:
                     f_caption=BATCH_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
-                    
                 except Exception as e:
                     logger.exception(e)
                     f_caption=f_caption
-                    
             if f_caption is None:
                 f_caption = f"{title}"
-                
             try:
-                suz = await client.send_cached_media(
+                await client.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
