@@ -103,11 +103,39 @@ async def start(client, message):
 
     status = await ForceSub(client, message, file_id=file_id, mode=pre)
     if not status:
+          return
+
+    if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help", "start", "hehe"]:
+        if message.command[1] == "subscribe":
+            await ForceSub(client, message)
+            return
+    if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
+        buttons = [[
+            InlineKeyboardButton('sᴜʀᴘʀɪsᴇ', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        a = await message.reply_text(
+            text="● ◌ ◌"
+        )
+        await asyncio.sleep(0.2)
+        b = await a.edit(
+            text="● ● ◌"
+        )
+        await asyncio.sleep(0.2)
+        c = await b.edit(
+            text="● ● ●"
+        )
+        await asyncio.sleep(0.6)
+        await c.delete()
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.SUR_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
         return
     data = message.command[1]
-    try:
-        pre, file_id = data.split('_', 1)
-    except:
+    if not file_id:
         file_id = data
         pre = ""
     if data.split("-", 1)[0] == "BATCH":
