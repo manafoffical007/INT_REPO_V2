@@ -223,13 +223,14 @@ Nᴀᴍᴇ - {}"""
     
     BATCH_FILE_CAPTION = """{file_caption}"""
     
-    IMDB_TEMPLATE_TXT = """
-🏷 Title: <a href={url}>{title}</a>
+    IMDB_TEMPLATE_TXT = """<b>
+🎬 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>
 🗣 Language : {languages}
-📯<b>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒</b> : <a href='https://t.me/ARAKAL_THERAVAD_MOVIES'>𝗔𝗥𝗔𝗞𝗔𝗟 𝗧𝗛𝗘𝗥𝗔𝗩𝗔𝗗 𝗠𝗢𝗩𝗜𝗘𝗦</a>"""
+📯 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : <a href='https://t.me/+d6uS3HpZ645mY2E1'>🄲🄸🄽🄴🄼🄰 🄻🄾🄺🄰🄼</a>
+📯 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : <a href='https://t.me/+57i6-3ErOgg5MzQ1'>𝗔𝗥𝗔𝗞𝗔𝗟 𝗧𝗛𝗘𝗥𝗔𝗩𝗔𝗗 𝗠𝗢𝗩𝗜𝗘𝗦</a></b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
