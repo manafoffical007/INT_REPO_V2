@@ -21,7 +21,6 @@ from datetime import date, datetime
 import pytz
 from aiohttp import web
 from plugins import web_server
-from plugins.index import index_files_to_db, incol
 
 class Bot(Client):
 
