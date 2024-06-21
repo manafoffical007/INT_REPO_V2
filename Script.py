@@ -224,10 +224,10 @@ Nᴀᴍᴇ - {}"""
     BATCH_FILE_CAPTION = """{file_caption}"""
     
     IMDB_TEMPLATE_TXT = """<b>
-🎬 Title: <a href={url}>{title}</a>
+🎬 Title: {title}
 🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10
+📆 Year: {year}
+🌟 Rating: {rating}
 🗣 Language : {languages}
 📤 Upload : <a href='https://t.me/+57i6-3ErOgg5MzQ1'>𝑨𝑹𝑨𝑲𝑨𝑳 𝑻𝑯𝑬𝑹𝑨𝑽𝑨𝑫 𝑴𝑶𝑽𝑰𝑬𝑺</a>
 📯 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : <a href='https://t.me/+d6uS3HpZ645mY2E1'>𝑪𝑰𝑵𝑬𝑴𝑨 𝑳𝑶𝑲𝑨𝑴</a></b>"""
