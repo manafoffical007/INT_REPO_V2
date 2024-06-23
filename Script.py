@@ -6,7 +6,7 @@ class script(object):
 
 <b>I'ᴍ <a href=https://t.me/{}>{}</a> Yᴏᴜ Cᴀɴ Cᴀʟʟ Mᴇ Aꜱ 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 Bᴏᴛ Bᴏᴛ ᴠ7 🫶</b>
 
-<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @ARAKAL_THERAVAD_MOVIES..!! 💫</b>
+<b>Exᴄʟᴜꜱɪᴠᴇʟʏ Mᴀᴅᴇ Tʜɪꜱ Bᴏᴛ Fᴏʀ @ARAKAL_THERAVAD_GROUP_01..!! 💫</b>
 
 <b>📌 Sᴜᴘᴘᴏʀᴛ : @OTT_ARAKAL_THERAVAD_MOVIESS</b>
 
