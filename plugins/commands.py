@@ -151,8 +151,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),                   
-                DL.append(suz)
-            except FloodWait as e:
+                DL.append(suz)            
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
                 suz = await client.send_cached_media(
@@ -160,8 +159,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),   
                     caption=f_caption,
                     protect_content=msg.get('protect', False),                    
-                DL.append(suz)
-            except Exception as e:
+                DL.append(suz)           
                 logger.warning(e, exc_info=True)
                 continue            
         return
