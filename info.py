@@ -42,8 +42,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Autofilterv7:Autofilterv7@cluster0.t5tqe4s.mongodb.net/")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Autofilterv7")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Leachv2:Leachv2@cluster0.4unag2e.mongodb.net/")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Leachv2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
